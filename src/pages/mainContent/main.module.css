@@ -1,0 +1,25 @@
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (min-width: 1170px) {
+  .wrapper {
+    max-width: 1170px;
+  }
+}
+
+.sidePanel {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.mainPanel {
+  width: 75%;
+  display: flex;
+  margin: 0 10px;
+}

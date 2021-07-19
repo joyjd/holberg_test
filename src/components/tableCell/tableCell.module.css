@@ -1,0 +1,20 @@
+.header {
+  min-width: 130px;
+  max-width: 130px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 3px solid #88888863;
+  border-top: 3px solid #88888863;
+}
+.cell {
+  min-width: 130px;
+  max-width: 130px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #88888863;
+}

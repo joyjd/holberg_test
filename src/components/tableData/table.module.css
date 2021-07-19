@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.tableRow {
+  display: flex;
+  flex-direction: row;
+}
+.tableRow:hover {
+  background-color: #88888863;
+  cursor: pointer;
+}
